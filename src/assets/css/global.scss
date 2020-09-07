@@ -1,0 +1,31 @@
+@import "./const.scss";
+body {
+    background: #f5f5f5;
+}
+
+.scm-input {
+    background: #f6b400;
+    input {
+        color: #fff;
+    }
+    input::-webkit-input-placeholder,
+    textarea::-webkit-input-placeholder {
+        /* WebKit browsers */
+        color: #fff !important;
+    }
+    input:-moz-placeholder,
+    textarea:-moz-placeholder {
+        /* Mozilla Firefox 4 to 18 */
+        color: #fff !important;
+    }
+    input::-moz-placeholder,
+    textarea::-moz-placeholder {
+        /* Mozilla Firefox 19+ */
+        color: #fff !important;
+    }
+    input:-ms-input-placeholder,
+    textarea:-ms-input-placeholder {
+        /* Internet Explorer 10+ */
+        color: #fff !important;
+    }
+}

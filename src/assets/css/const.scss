@@ -1,0 +1,13 @@
+$font-family-content : Source Han Sans CN;
+$font-family-title : Adobe Heiti Std;
+
+@mixin child-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin block-start-end{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
